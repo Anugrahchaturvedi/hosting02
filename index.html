@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pack your job</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="style01.css"> -->
+    <style>
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+           background:url('https://source.unsplash.com/random');
+           /* background-color: black; */
+            color: azure;
+            font-family: 'Righteous', cursive;
+        }
+        .left{
+            /* border: 2px solid blue; */
+         
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            left: 34px;
+        } 
+
+        .left #img{
+            width: 50px;
+            position: relative;
+            left: 30px;
+            
+        }
+        .left div {
+         text-align: center;
+         font-family: 'Dancing Script', cursive;
+         font-size: 24px;
+         line-height: 31px;
+        }
+        .mid{
+            /* these steps are used to make any element in center */
+            /* border:2px solid brown; */
+            width:33%;
+            display: block;
+            margin: 18px auto;
+        }
+        .right{
+            /* border: 2px solid black; */
+            
+            display: inline-block;
+          position: absolute;
+          right:34px;
+          top:18px;
+          
+        }
+        .btn{
+            margin: 10px;
+            background-color: black;
+            color: honeydew;
+            padding: 8px 23px;
+            /* border: 2px solid black; */
+            border-radius: 23px ;
+            cursor: pointer;
+            font-family: 'Righteous', cursive;
+        }
+        .btn:hover{
+            background-color: rgb(63, 63, 63)       }
+        .navbar{
+            list-style: none;
+            font-size: 10px;
+         text-decoration: none;
+         }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            display: inline-block;
+            padding: 20px;
+            font-size: 25px;
+        }
+        .navbar a{
+            color: azure;
+            text-decoration: none;
+        }
+        .navbar a:hover , .navbar a.active{
+          color: grey;
+          text-decoration: underline;
+        }
+        .container{
+            /* border:2px solid white; */
+            margin: 100px 115px ;
+            width: 33%;
+            border-radius: 22px;
+            height: 300px;
+            padding: 34px;
+            font-size: 17px;
+            }
+            .container button{
+                display: block;
+           
+            color: greenyellow;
+            }
+           
+
+
+    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left"> 
+        <img src="img/logo.png" id="img">
+        <div>Pack your job</div>
+         </div>
+        
+        <div class="mid"> 
+            <ul class="navbar">
+                
+             <li ><a href="" target="_blank" class="active">Home</a></li>
+             <li ><a href="" target="_blank">About</a></li>
+             <li ><a href="" target="_blank">Compnies</a></li>
+             <li ><a href="" target="_blank">FAQ</a></li>
+            
+            </ul> </div>
+        <div class="right"> 
+            <button class="btn">Call us now</button>
+            <button class="btn"> Email us </button>
+        </div>
+
+  <div class="container"><h2>Do you wanna Software Engineer ?</h1>
+ <form action="backend.js">
+     <label for="name"> Enter your Name </label>
+     <div><input type="text" id="name"> </div>
+     <label for="age"> age </label>
+     <div><input type="date" id="age"> </div>
+     <label form="deg"> Designation </label>
+     <div><input type="text" id="deg"> </div>
+     <label for="instittute"> instittute </label>
+     <div><input type="text" id="instittute"> </div>
+     <button class="btn">sumbit</button>
+  
+    </form>
+</div>
+ 
+    </header>
+</body>
+</html>
